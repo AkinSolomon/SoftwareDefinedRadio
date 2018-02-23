@@ -7,10 +7,7 @@ function [] = eyediagram(y_up,L,N,IQ)
 % N       number of symbols
 % IQ      string, 'complex', if both I and Q are desired 
 %
-% Note that first sample of y_up is assumed to occur at a symbol time.
 
-% Digital Communication Laboratory
-% Autumn 2014
 
 %% error checks
 if(nargin < 2)
