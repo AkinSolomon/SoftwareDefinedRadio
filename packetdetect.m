@@ -8,9 +8,6 @@ function [ rx_Trim ] = packetdetect( yup , L,  pkt_len)
 % L         upsampling factor
 % pkt_len   packet length (including both header and payload)
 
-% Digital Communications Laboratory
-% Autumn 2014
-
 Mask=ones(1,pkt_len*L);
 Energy_Corr=conv(abs(yup).^2,Mask);
 Energy_Corr=Energy_Corr(length(Mask):end);
