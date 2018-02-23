@@ -11,8 +11,7 @@ function [h]=firlpf(Lh,fpass,fstop,fsample)
 % fsample   sampling rate (Hz)
 % h         designed impulse response
 
-% Digital Communications Laboratory
-% Autumn 2014
+
 
 %% argument check
 if(nargin < 4)
@@ -28,6 +27,7 @@ if( mod(Lh,2) ~= 1);
     Lh=Lh+1;
     warning('Lh incremented for Type I FIR filter.');
 end
+
 %% normalized frequency (radians per sample)
 fpass = fpass / (fsample/2) * pi; 
 fstop = fstop / (fsample/2) * pi; 
