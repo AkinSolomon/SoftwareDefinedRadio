@@ -11,8 +11,6 @@ function g = srrc(D,alpha,L)
 %            L must be a positive integer
 %    g       samples of the srrc pulse
 
-% Digital Communications Laboratory
-% Autumn 2014
 
 %% argument check
 if(nargin < 3)
