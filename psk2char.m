@@ -11,8 +11,6 @@ function [str,bits] = psk2char(y,M)
 % strbin string variable with ASCII text
 % bits   list of 0/1 bits (as logical variables)
 %
-% Digital Communication Laboratory
-% Autumn 2014
 
 %% error checks
 if(nargin ~= 2)
