@@ -12,8 +12,6 @@ function [a,bits] = char2psk(str,M);
 % a         output list of PSK symbols (complex-valued)
 % bits      output list of bits (logical)
 
-% Digital Communications Laboratory
-% Autumn 2014
 
 %% error checks
 if(nargin ~= 2)
